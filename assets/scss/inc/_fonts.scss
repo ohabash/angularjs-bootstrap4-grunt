@@ -1,0 +1,14 @@
+//================ Font11 ================//
+@include newFont(CenturyGothic);
+// mixin// @extend .font11;
+.font11{font-family: 'CenturyGothic', CenturyGothic, AppleGothic, sans-serif;}
+// variable //font-family: $font11;
+$font11: 'ChronicleDeck-Bold';
+
+
+.OpenS{
+	font-family: 'Open Sans', sans-serif;
+}
+.Raleway{
+	font-family: "Raleway", "Open Sans", Helvetica, sans-serif;
+}
