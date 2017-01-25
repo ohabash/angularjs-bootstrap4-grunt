@@ -17,8 +17,6 @@ you will need `git-cli` `npm` and `grunt before starting`
 
 * `cd` to root and `npm install`
 
-* start `watch` task for scss compiling with `grunt watch`
-
-* start browserSync (localhost and livereload) with `grunt browserSync`
+* start grun __watch__ and __browserSync__ tasks `grunt`
 
 * your browser should pop up serving this content. Try to edit the scss to see it in action

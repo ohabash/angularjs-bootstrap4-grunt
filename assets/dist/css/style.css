@@ -6855,9 +6855,9 @@ a.bg-danger:focus, a.bg-danger:hover {
   background: #00A87B;
   color: #fff; }
 
-.green, green {
+.green, body, green {
   color: #00A87B !important; }
-  .green a, green a {
+  .green a, body a, green a {
     color: #00A87B; }
 
 .green-bg {
@@ -6879,9 +6879,9 @@ a.bg-danger:focus, a.bg-danger:hover {
   background: #FF4633;
   color: #fff; }
 
-.red, body, red {
+.red, red {
   color: #FF4633 !important; }
-  .red a, body a, red a {
+  .red a, red a {
     color: #FF4633; }
 
 .red-bg {

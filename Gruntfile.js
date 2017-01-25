@@ -46,10 +46,8 @@ module.exports = function(grunt) {
                     ]
         },
         options: {
-            // watchTask: true,
-            server: {
-                baseDir: "./"
-            }
+            watchTask: true,
+            server: './'
         }
     }
 
@@ -67,6 +65,5 @@ module.exports = function(grunt) {
 
   // grunt.registerTask('test', ['jshint', 'qunit']);
   //
-  grunt.registerTask('default', ['watch', 'browserSync']);
-
+  grunt.registerTask('default', ['browserSync', 'watch']);
 };
